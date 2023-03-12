@@ -1,0 +1,7 @@
+.pt-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 400px;
+  grid-gap: 0.5rem;
+  margin: 2rem;
+}

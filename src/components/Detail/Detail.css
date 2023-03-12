@@ -1,0 +1,74 @@
+.pt-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  gap: 1rem;
+}
+
+.pt-figure > .imgDetail {
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.pt-figure .imgDetail:hover {
+  opacity: 80%;
+  border: 2px solid #0181ff;
+}
+
+.pt-figure > button {
+  background-color: inherit;
+  border: none;
+  color: black;
+}
+
+dialog {
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  padding: 1rem;
+  z-index: 1;
+  border: none;
+  background: rgba(1, 1, 1, 0.801);
+  border-radius: 10px;
+}
+
+.pt-dialog {
+ margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  gap: 1rem;
+  color: white;
+}
+
+.pt-dialog > p {
+  font-size: 18px;
+}
+
+.pt-dialog > img {
+  
+  height: 70%;
+  border-radius: 10px;
+  border: #0181ff 2px solid;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+dialog > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+
+@media (max-width:715px) {
+  .pt-dialog{
+width: 100%;
+  }
+  }
